@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+
+/* Base */
+
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,10 +43,10 @@ header {
     background-color: white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-top: 1em;
     padding-left: 3em;
     margin: 0 auto;
 }
+
 
 /* header */
 
@@ -57,6 +60,7 @@ h1 {
     font-size: 30px;
     font-weight: bolder;
 }
+
 
 /* buttons */
 
@@ -77,8 +81,80 @@ h1 {
     border: 1px solid lightgray;
 }
 
+
 /* List */
 
 ul {
     list-style: none;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 1.5em;
+}
+
+h2::before {
+    content: "\25BC";
+}
+
+
+/* Check/cross circles */
+
+.circle {
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 1.4em;
+    text-align: center;
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+
+.check {
+    color: #73C8B5;
+    border-color: #73C8B5;
+    font-size: .7em;
+}
+
+.cross {
+    color: #EB5E58;
+    border-color: #EB5E58;
+    font-size: .7em;
+}
+
+
+/* Tag colorati */
+
+.tag {
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 9px;
+}
+
+.blu {
+    background-color: #47ADF1;
+}
+
+.viola {
+    background-color: #9C72E4;
+}
+
+.turchese {
+    background-color: #64C0A9;
+}
+
+.arancione {
+    background-color: #F29E33;
+}
+
+.rosa {
+    background-color: #D863A1;
+}
+
+.verde {
+    background-color: #B0C926;
 }
