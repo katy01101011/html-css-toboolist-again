@@ -32,6 +32,7 @@ header {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom: 2px solid #F6F8F9;
+    padding-top: 1em;
     padding-left: 3em;
 }
 .main {
@@ -42,10 +43,6 @@ header {
     padding-top: 1em;
     padding-left: 3em;
     margin: 0 auto;
-}
-
-ul {
-    list-style: none;
 }
 
 /* header */
@@ -59,4 +56,29 @@ h1 {
     vertical-align: middle;
     font-size: 30px;
     font-weight: bolder;
+}
+
+/* buttons */
+
+.button {
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.task {
+    color: white;
+    background-color: #47ADF1;
+    border: 1px solid #47ADF1;
+}
+
+.section {
+    color: lightgray;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+/* List */
+
+ul {
+    list-style: none;
 }
