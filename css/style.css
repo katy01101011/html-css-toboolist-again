@@ -95,8 +95,14 @@ h2 {
 }
 
 h2::before {
-    content: "\25BC";
-}
+    content: "";
+    display: inline-block;
+    background-image: url(../img/arrowdown.png);
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    margin-right: .2em;
+    }
 
 
 /* Check/cross circles */
